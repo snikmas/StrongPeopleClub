@@ -1,0 +1,55 @@
+.page-5 {
+  margin-top:5rem;
+  align-items: center;
+  text-align: center;
+}
+
+.page-5 button {
+  width:4%;
+  height:4%;
+  margin: 1rem;
+}
+
+.gallery {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+
+  align-items: center;
+}
+
+.carousel {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  width: 90%;
+}
+
+.photo {
+  width: 30%;
+}
+
+
+.photo img{
+  width:100%;
+}
+
+
+
+@media (max-width:900px){
+
+
+
+  .page-5 h2 {
+    font-size: 2rem;
+  }
+
+  .gallery {
+    flex-direction: column; 
+  };
+
+  .carousel {
+    flex-direction: column;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,48 @@
+.page-2 {
+  clear:both;
+  margin-top: 8vh;
+  padding:9rem 2rem;
+  margin-bottom:8vh;
+  text-align: center;
+  align-content: center;
+}
+
+.page-2 h1 {
+  font-size: 3rem;
+}
+
+
+.representation p {
+  display: block;
+  padding:0 14rem; 
+  line-height:2.3rem;
+}
+
+
+@media (max-width:500px) {
+  header button{
+    display: none;
+  } 
+  
+}
+
+
+@media(max-width:1000px) {
+  .representation p {
+    padding:0 8rem;
+  }
+}
+
+@media(max-width:600px) {
+  .page-2 h1 {
+    font-size: 2rem;
+  }
+  .representation p {
+    padding:0;
+    font-size: 95%;
+  }
+
+  .page-3 h2 {
+    font-size: 2rem;
+  }
+}

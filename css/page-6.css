@@ -1,0 +1,61 @@
+.page-6 {
+  margin: 20vh 0;
+  height:60vh;
+  padding:0 30%;
+  text-align: center;
+}
+
+.page-6 h2 {
+  margin:1rem;
+}
+
+
+.contact{
+  background-color: rgba(184, 184, 184, 0.148);
+  background-blend-mode: darken;
+  padding:1rem 2rem;
+  border-radius: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.form > *, textarea {
+  padding:10px;
+  font-size: 1em;
+  margin-bottom: 3vh;
+}
+
+textarea{
+  min-height: 10vh;
+}
+
+.page-6 input {
+  height:4vh;
+
+}
+
+.send {
+  margin:2.5rem 30%;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 1.2rem;
+
+}
+
+@media (max-width:900px){
+  .page-6{
+    padding:0 15%;
+  }
+
+  .page-6 h2 {
+    font-size: 2rem;
+  }
+
+  .page-5 h2 {
+    font-size: 2rem;
+  }
+}

@@ -1,0 +1,68 @@
+footer {
+  margin-top:15rem;
+  padding: 2.8rem 2rem;
+  background-color: #1C1C1C;
+  padding-bottom: 1rem;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.site{
+  background-color: transparent;
+  padding:0;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.8rem;
+}
+
+
+footer h6 {
+  margin:1.4rem 0;
+  margin-bottom: 0.5rem;
+  font-size:1.2rem;
+  font-weight: 600;
+  color:rgb(160, 160, 160)
+}
+
+
+.ul-soc{
+  padding: 0;
+  background-color: transparent;
+}
+
+.ul-soc a {
+  margin-top:10px;
+  padding-right: 13px;
+}
+
+
+footer nav img {
+  width: 2.3%;
+}
+
+
+.contact-foot {
+  background-color: transparent;
+  width:17%;
+}
+
+.contact-foot ul {
+  display: block;  
+  line-height: 1.8rem;
+}
+
+
+.line {
+  border:2px solid white;
+  margin: 4rem 0;
+  margin-bottom: 2rem;
+}
+
+.terms span{
+  margin:0;
+  padding:0;
+  line-height: 1rem;
+}
