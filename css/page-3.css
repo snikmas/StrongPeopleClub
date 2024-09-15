@@ -1,9 +1,15 @@
+/* ----------------- ----- ----------------- */
+/* ------------ general-page-3 ------------ */
+
+
 .page-3 {
   text-align: center;
   padding:3rem 0;
   height:100vh;
 }
 
+/* ----------------- ----- ----------------- */
+/* ----------------- fonts ----------------- */
 
 .page-3 h6{
   font-size: 1.4rem;
@@ -18,8 +24,8 @@
 }
 
 
-
-/* coaches */
+/* ----------------- ----- ----------------- */
+/* ----------------- buttons --------------- */
 
 
 .arrow img {
@@ -45,10 +51,9 @@
   transition-duration: 0.1s;
 }
 
-.arrow:hover{
-  cursor:pointer
-}
 
+/* ----------------- ----- ----------------- */
+/* ---------- carousel-coaches--------------- */
 
 .coaches{
   display: flex;
@@ -59,18 +64,17 @@
 }
 
 .coach {
-  
   align-items: end;
   display: block;
   height:55vh;
   width:20%;
-  
   
   background-size: cover;
   background-position: center;
 
   position: relative;
 }
+
 .coach-info{
   position: absolute;
   bottom:-25%;
@@ -80,6 +84,22 @@
   
   background-color: rgb(255, 162, 12);
 }
+
+.c-1 {
+  background-image: url(/assets/avatar-1.jpg);
+
+}
+
+.c-2{
+  background-image: url(/assets/avatar-2.jpg);
+}
+
+.c-3{
+  background-image: url(/assets/avatar-3.jpg);
+}
+
+/* ----------------- ----- ----------------- */
+/* ----------------- @media ----------------- */
 
 @media (max-width: 900px){
   .coaches{
@@ -100,16 +120,3 @@
 
 }
 
-.c-1 {
-  background-image: url(/assets/avatar-1.jpg);
-
-}
-
-.c-2{
-  background-image: url(/assets/avatar-2.jpg);
-}
-
-
-.c-3{
-  background-image: url(/assets/avatar-3.jpg);
-}

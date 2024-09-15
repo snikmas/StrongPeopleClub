@@ -1,25 +1,5 @@
-nav{
-  color:white;
-  background-color: black;
-  padding: 0.5rem 2rem;
-}
-
-nav img {
-  width:110%;
-}
-
-ul {
-  align-items: center;
-  display: flex;
-  justify-content:space-between;
-  
-}
-.page-1 img {
-  display: 100%;
-  width: 100%;
-  background-blend-mode: darken;
-  color: rgba(0, 0, 0, 0.96);
-}
+/* ----------------- ----- ----------------- */
+/* ------------ general-page-1 ------------ */
 
 .page-1 {
   display: flex;
@@ -28,8 +8,51 @@ ul {
   text-align: center;
 }
 
-.more {
+.page-1 img {
+  display: 100%;
+  width: 100%;
+  background-blend-mode: darken;
+  color: rgba(0, 0, 0, 0.96);
+}
 
+/* ----------------- ----- ----------------- */
+/* ----------------- nav ----------------- */
+
+nav{
+  color:white;
+  background-color: black;
+  padding: 0.5rem 2rem;
+}
+
+nav button {
+  font-size: 1rem;
+  padding:0.8rem 1.5rem;
+  color:rgb(255, 255, 255, 0.8);
+  font-weight:400;
+  font-size: 1.2rem;
+  
+  background-color: rgb(0, 0, 0);
+  border-color:rgb(145, 145, 145);
+  
+  border-radius: 10px;
+}
+
+nav button:hover{
+  cursor: pointer;
+  background-color: rgba(105, 105, 105, 0.06);
+  color:rgb(255, 255, 255);
+  transition-duration: 0.5ms;
+}
+
+nav img {
+  width:110%;
+}
+
+
+/* ----------------- ----- ----------------- */
+/* ------------- button-more ---------------- */
+
+.more {
   padding:0px 1%;
   margin-top: 3rem;
   background-color: transparent;
@@ -56,23 +79,3 @@ ul {
   transition-duration: 0.2ms;
 }
 
-nav button {
-  font-size: 1rem;
-  padding:0.8rem 1.5rem;
-  color:rgb(255, 255, 255, 0.8);
-  font-weight:400;
-  font-size: 1.2rem;
-  
-  background-color: rgb(0, 0, 0);
-  border-color:rgb(145, 145, 145);
-
-  border-radius: 10px;
-}
-
-
-nav button:hover{
-  cursor: pointer;
-  background-color: rgba(105, 105, 105, 0.06);
-  color:rgb(255, 255, 255);
-  transition-duration: 0.5ms;
-}

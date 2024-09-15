@@ -1,9 +1,15 @@
+/* ----------------- ----- ----------------- */
+/* ------------ general-footer ------------ */
+
 footer {
   margin-top:15rem;
   padding: 2.8rem 2rem;
   background-color: #1C1C1C;
   padding-bottom: 1rem;
 }
+
+
+/* top-footer */
 
 .top {
   display: flex;
@@ -28,6 +34,9 @@ footer h6 {
 }
 
 
+
+/* society-nav */
+
 .ul-soc{
   padding: 0;
   background-color: transparent;
@@ -38,11 +47,12 @@ footer h6 {
   padding-right: 13px;
 }
 
-
-footer nav img {
+.ul-soc img {
   width: 2.3%;
 }
 
+
+/* left-footer */
 
 .contact-foot {
   background-color: transparent;
@@ -55,12 +65,18 @@ footer nav img {
 }
 
 
+/* ----------------- ----- ----------------- */
+/* ---------------------- line  ------------ */
+
 .line {
   border:2px solid white;
   margin: 4rem 0;
   margin-bottom: 2rem;
 }
 
+
+/* ----------------- ----- ----------------- */
+/* ------------ bot-footer ---- ------------ */
 .terms span{
   margin:0;
   padding:0;

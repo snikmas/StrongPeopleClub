@@ -5,37 +5,19 @@ html, body{
   background-color: black;
   color:white;
   font-family: montserrat;
-
-
 }
 
-.page-3, .page-2, .page-1, .page-4, .page-5 {
+.page-3, .page-2, .page-4, .page-5 {
   overflow: auto;
 }
 
 
-a{
-  text-decoration: none;
-  color:white;
-  margin:0;
-}
-
-
-ul {
-  margin:0;
-  padding:0;
-  font-style: none;
-  list-style: none;
-}
+/* ----------------- ----- ----------------- */
+/* ----------------- fonts ----------------- */
 
 h1{
   font-size: 2rem;
 }
-
-p{
-  font-size: 1.5rem;
-}
-
 
 h2 {
   font-size: 3rem;
@@ -43,4 +25,51 @@ h2 {
   font-weight: 500;
 }
 
+h6 {
+  font-size: 2rem;
+}
 
+p{
+  font-size: 1.5rem;
+}
+
+a{
+  text-decoration: none;
+  color:white;
+  margin:0;
+}  
+
+
+/* ----------------- ----- ----------------- */
+/* ----------------- lists ----------------- */
+
+ul {
+  margin:0;
+  padding:0;
+  font-style: none;
+  list-style: none;
+  align-items: center;
+  display: flex;
+  justify-content:space-between;
+  
+}
+
+/* ----------------- ----- ----------------- */
+/* ----------------- buttons --------------- */
+
+button:hover {
+  cursor:pointer
+}
+
+
+/* ----------------- ----- ----------------- */
+/* ----------------- @media --------------- */
+
+
+@media (max-width:900px){
+
+
+  h2 {
+    font-size: 2rem;
+  }
+}

@@ -1,3 +1,6 @@
+/* ----------------- ----- ----------------- */
+/* ------------ general-page-1 ------------ */
+
 .page-2 {
   clear:both;
   margin-top: 8vh;
@@ -7,10 +10,9 @@
   align-content: center;
 }
 
-.page-2 h1 {
-  font-size: 3rem;
-}
 
+/* ----------------- ----- ----------------- */
+/* ----------------- fonts ----------------- */
 
 .representation p {
   display: block;
@@ -19,13 +21,8 @@
 }
 
 
-@media (max-width:500px) {
-  header button{
-    display: none;
-  } 
-  
-}
-
+/* ----------------- ----- ----------------- */
+/* ----------------- @media ----------------- */
 
 @media(max-width:1000px) {
   .representation p {
@@ -34,15 +31,25 @@
 }
 
 @media(max-width:600px) {
+
   .page-2 h1 {
     font-size: 2rem;
-  }
-  .representation p {
-    padding:0;
-    font-size: 95%;
   }
 
   .page-3 h2 {
     font-size: 2rem;
+  }
+
+  .representation p {
+    padding:0;
+    font-size: 95%;
+  }
+  
+  
+  @media (max-width:500px) {
+    header button{
+      display: none;
+    } 
+    
   }
 }
