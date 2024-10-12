@@ -45,7 +45,7 @@
   </header>
   <div class="page-1">
     <img src="assets/img-1.jpg">
-    <button class="more"><img src="assets/arrow-more.png"></button>
+    <button class="more" onclick="scrollDown(0, 650)"><img src="assets/arrow-more.png"></button>
   </div>
   <div class="page-2">
     <div class="representation">
@@ -57,7 +57,7 @@
   <div class="page-3">
     <h2>OUR TEAM</h2>
     <div class="coaches">
-      <button class="arrow left">
+      <button class="arrow coaches left">
         <img src="assets/arrow-left.png">
       </button>
       <div class="coach c-1">
@@ -80,7 +80,7 @@
           <p>ABOUT ME</p>
         </div>
       </div>
-      <button class="arrow rigth">
+      <button class="arrow coaches rigth">
         <img src="assets/arrow-right.png">
       </button>
     </div>
@@ -153,13 +153,13 @@
   <div class="page-5">
       <h2>GALLERY</h2>
       <div class="gallery">
-      <button class="arrow left"><img src="assets/arrow-left.png"></button> 
+      <button class="arrow gallery left"><img src="assets/arrow-left.png"></button> 
       <div class="carousel">
-        <div class='photo'><img src="assets/gallery-1.png"></div>
-        <div class='photo'><img src="assets/gallery-2.png"></div>
-        <div class='photo'><img src="assets/gallery-3.png"></div>
+        <!-- <div class='photo-1'><img src="assets/gallery-1.png"></div>
+        <div class='photo-2'><img src="assets/gallery-2.png"></div>
+        <div class='photo-3'><img src="assets/gallery-3.png"></div> -->
       </div>
-      <button class="arrow right"><img src="assets/arrow-right.png"></button>        
+      <button class="arrow gallery right"><img src="assets/arrow-right.png"></button>        
       </div>
   </div>
 
@@ -217,5 +217,9 @@
       <span>Terms of Service</span>
     </div>
   </footer>
+
+
+  <script type="module" src="scripts/data.js"></script>
+  <script type="module" src="scripts/index.js"></script>
   </body>
 </html>
