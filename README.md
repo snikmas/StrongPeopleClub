@@ -1,10 +1,10 @@
-<br /> in the process of writing js code
+<br /> in the process
 
 # A static website for StrongFamilyClub
 
 ## Description 
 
-A simple static website for an material arts club.<br />
+A simple static website for a material arts club.<br />
 Technologies: JavaScript, CSS, HTML, hosted on Render 
 
 
