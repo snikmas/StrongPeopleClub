@@ -10,4 +10,5 @@ Technologies: JavaScript, CSS, HTML, hosted on Render
 
 The active link: https://strongpeopleclub.onrender.com/
 
-![Uploading strongFamily.png…]()
+
+![strongFamily](https://github.com/user-attachments/assets/b731acd8-06a1-4bb5-9504-4d61610c9a19)
